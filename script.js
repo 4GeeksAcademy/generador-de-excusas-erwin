@@ -12,6 +12,7 @@ function generarExcusa() {
     
     document.getElementById("excusa").innerText = excusa;
 }
+
 function randomNumberFromArray(array){
     let randomNumber = Math.floor(Math.random() * array.length) 
     return randomNumber
